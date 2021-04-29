@@ -106,7 +106,7 @@ h1 {
   display: grid;
   grid-template-columns: 310px 310px 330px;
   grid-template-rows: 300px 50px;
-  grid-template-areas: 'imagen1 lugar imagen3'  'texto1 texto2 texto3'; }
+  grid-template-areas: 'imagen1 lugar imagen3'  'texto1 texto2 texto3'; }
 
 .remerazul {
   grid-area: imagen1; }
@@ -244,7 +244,7 @@ thead {
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 350px 350px;
   gap: 4rem;
-  grid-template-areas: 'pantalon1 pantalon2 pantalon3' 'gorra1 gorra2 gorra3'; }
+  grid-template-areas: 'pantalon1 pantalon2 pantalon3' 'gorra1 gorra2 gorra3'; }
 
 .pantalon1 {
   grid-area: pantalon1; }
@@ -293,13 +293,13 @@ thead {
 .table {
   background-color: lightblue; }
 
-.hacerblock__marca--uppercase {
+.hacerblockmarca {
   text-transform: uppercase; }
 
-.ubicaciones__soho--principal {
+.ubicacionesoho {
   font-family: sans-serif; }
 
-.ubicaciones__SOLAR--acostada {
+.ubicacionesolar {
   font-family: sans-serif;
   margin-left: 5rem; }
 
