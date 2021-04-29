@@ -1,0 +1,250 @@
+:root{
+	font-size:16px;
+}
+*{
+	box-sizing: border-box;
+}
+.bg-dark {background-color: yellow;}
+h1{
+	color: red;
+	text-align:center;
+}
+
+.partesuperior{min-height: calc(100vh - 150px);}
+
+.fondos {
+	background-color: rgba(194, 189, 189, 0.534); 
+}
+
+.titulo{
+	top: 4px;
+	left:35%;
+	margin-bottom: 3rem;
+}
+.enlace{
+	background-color: black;
+	margin-top: 4rem;
+	margin-left: 1rem;
+	margin-right: 1rem;	
+	padding-left: 1rem;
+		li a:hover{
+			font-weight: bold;
+			border-radius: 10%;
+			background-color: rgba(187, 184, 184, 0.801);
+		}
+	}
+
+	#dropdownMenuLink{
+		background-color: black;}
+		#dropdownMenuLink:hover{
+				font-weight: bold;
+				border-radius: 10%;
+				background-color: rgba(187, 184, 184, 0.801);
+				border-color: none;
+			}
+	.dropdown-item:hover{background-color: silver;}
+
+	.btn{color: silver;
+		border-color: silver;}
+
+	.d-flex{margin: 1px 0 1px 19rem;
+		}
+	.lead{
+			padding-right: 5rem;
+			padding-left: 5rem;
+		}
+
+	#carruselboton{background-color: black;}
+
+.cascada-gris{
+	display: flex;
+	width: 100%;
+	height: 150px;
+	background-color: black;
+	color: silver;
+	margin-top: 3rem;
+	font-family: sans-serif;
+	h4{ margin-top: 1rem;
+		margin-left: 1rem;}
+		.name{ margin-top: 3rem;
+			margin-left:5rem;}
+			.gmail{ margin-top: 3rem;
+				margin-left: 5rem;}
+				.telefono{ margin-top: 3rem;
+					margin-left: 5rem;}
+					.redes{ margin-top: 3rem;
+						margin-left: 5rem;}
+}		
+.face{margin-top: 3rem;
+	margin-left: 5rem;}
+.juntos{
+	display: flex;
+}	
+.tabla{
+	margin-top:2rem;
+	margin-left: 16px;
+	background-color: lightblue;
+}
+
+.imagen{
+	margin-left: 10px;
+	border:2px solid black;
+	justify-content: space-between;
+	padding-top: 5px;
+	margin-right: 1rem;
+}
+.imagen{
+	display:grid;
+	grid-template-columns: 310px 310px 330px;
+	grid-template-rows: 300px 50px;
+	grid-template-areas: 'imagen1 lugar imagen3' 
+						'texto1 texto2 texto3';
+}
+.remerazul {grid-area: imagen1;}
+.remeranaranja {grid-area: lugar;
+				grid-column-start: 2}
+.remeraroja {grid-area: imagen3;}
+.color1{grid-area: texto1; font-family: sans-serif; margin-top: 15px; margin-left: 3rem;  }
+.color2{grid-area: texto2; font-family: sans-serif; margin-top: 15px; margin-left: 2rem;  }
+.color3{grid-area: texto3; font-family: sans-serif; margin-top: 15px; margin-left: 2rem;  }
+
+.mover{
+	display: flex;
+	.remerazul{
+	border-radius: 15%;
+	margin-left: 32px;}
+	.remeranaranja{
+		border-radius: 15%;	}
+	.remeraroja{
+border-radius: 15%;}
+}
+@media (max-width: 767px){
+	.imagen{display:none;}
+
+	.grilla{display: inline-block;}
+
+	.tabla{margin-left: 30%;}	
+
+	.cascada-gris{display: flex; size: 10px; padding: 1rem;}
+
+	.ubicaciones{display: block;}
+	.mapa1{display: none;}
+	.mapa2{display:none}
+	
+}
+.mover{
+	.remeraroja:hover{transform: scale(1.1);}
+	.remerazul:hover{transform: scale(1.1);}
+	.remeranaranja:hover{transform: scale(1.1);}
+}
+#badge{ color: black;}
+
+ul{
+	color: blue;
+}
+.contactar{
+		color: orange;
+		text-align:center;
+		background-color: green;
+		margin: 4rem 6rem 0rem 6rem;
+	}
+.ubicaciones{
+	color: black;
+	font-family:sans-serif;
+	font-size:2rem;
+	line-height:39px;}
+
+.lugares{display: flex;
+margin-top: 3rem;}
+
+tbody{
+	font-family:sans-serif;
+}
+thead{
+	font-family: sans-serif;
+}
+
+
+.encuesta{
+	border:solid black 1px;
+	width: 32%;
+	padding:8px; 
+	font-family: sans-serif;
+
+#boton {margin-left: 4px; position:absolute}
+
+#search{ position: absolute;}
+	line-height: 1.6;
+	margin:auto;
+	background-color: white;
+}
+.dato{
+	margin-left: 3rem;
+	font-family: sans-serif;
+}
+
+.ColorDeFondo{
+	background-color: green;
+}
+.hacerBlock{
+	display: block;
+}
+.insta{
+	height: 30px;
+	width:30px;
+} 
+.facebook{
+	height: 30px;
+	width: 30px;
+}
+.marca{
+	text-align: center;
+}
+
+.grilla{
+	margin-top: 2rem;
+	display:grid;
+	margin-left: 8rem;
+	padding: 1rem;
+	grid-template-columns: 300px 300px 300px;
+	grid-template-rows: 350px 350px ;
+	gap:4rem;
+	grid-template-areas: 
+		'pantalon1 pantalon2 pantalon3'
+		'gorra1 gorra2 gorra3';
+}
+.pantalon1{ grid-area: pantalon1;}
+.pantalon2{ grid-area: pantalon2; }
+.pantalon3{ grid-area: pantalon3; }
+.gorra1 {grid-area: gorra1;}
+.gorra2 {grid-area: gorra2;}
+.gorra3 {grid-area: gorra3;}
+
+.infodelpant{font-weight: lighter;
+font-family: sans-serif; margin-top: 10px;}
+
+.carrito{display: flex;}
+
+.pantalon1:active{transform: scale(1.5);}
+.pantalon2:active{transform: scale(1.5);}
+.pantalon3:active{transform: scale(1.5);}
+.gorra1:active{transform: scale(1.5);}
+.gorra2:active{transform: scale(1.5);}
+.gorra3:active{transform: scale(1.5);}
+
+.table{
+	background-color: lightblue;
+}
+
+.hacerblock__marca--uppercase{
+	text-transform: uppercase;
+}
+.ubicaciones__soho--principal{
+	font-family: sans-serif;
+}
+.ubicaciones__SOLAR--acostada{
+	font-family: sans-serif;
+	margin-left: 5rem;
+}
+.mapa1{display: inline-block; margin-left: 1rem;}
+.mapa2{display: inline-block; margin-left: 1rem;}
