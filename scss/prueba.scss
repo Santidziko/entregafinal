@@ -123,7 +123,6 @@ h1{
 	.remeraroja{
 border-radius: 15%;}
 }
-
 @media (max-width: 640px){
 	.imagen{display:none;}
 
@@ -136,8 +135,8 @@ border-radius: 15%;}
 	.ubicaciones{display: block;}
 	.mapa1{display: none;}
 	.mapa2{display:none}
-	
-    .nike1{
+
+	.nike1{
         transform: translate(-130px ,-10px);
     }
     .nike2{
@@ -204,7 +203,7 @@ border-radius: 15%;}
     
 	
 }
-
+	
 .mover{
 	.remeraroja:hover{transform: scale(1.1);}
 	.remerazul:hover{transform: scale(1.1);}

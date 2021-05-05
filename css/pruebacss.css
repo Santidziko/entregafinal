@@ -154,7 +154,7 @@ h1 {
   .mover .remeraroja {
     border-radius: 15%; }
 
-@media (max-width: 640px) {
+@media (max-width: 767px) {
   .imagen {
     display: none; }
   .grilla {
