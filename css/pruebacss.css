@@ -154,7 +154,7 @@ h1 {
   .mover .remeraroja {
     border-radius: 15%; }
 
-@media (max-width: 767px) {
+@media (max-width: 640px) {
   .imagen {
     display: none; }
   .grilla {
@@ -170,7 +170,43 @@ h1 {
   .mapa1 {
     display: none; }
   .mapa2 {
-    display: none; } }
+    display: none; }
+  .nike1 {
+    transform: translate(-130px, -10px); }
+  .nike2 {
+    transform: translate(-495px, 450px); }
+  .nike3 {
+    transform: translate(-860px, 940px); }
+  .nike4 {
+    transform: translate(-130px, 1000px); }
+  .nike5 {
+    transform: translate(-495px, 1450px); }
+  .nike6 {
+    transform: translate(-860px, 1900px); }
+  .cascada-gris {
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(2000px);
+    height: 250px;
+    width: 100%;
+    margin-bottom: 0px;
+    font-family: sans-serif; }
+  .name {
+    transform: translate(0px, 0px); }
+  .gmail {
+    transform: translate(-50px, -50px); }
+  .gmail .logo-mail {
+    transform: translate(0px, -10px); }
+  .telefono {
+    transform: translate(-240px, 10px); }
+  .telefono .logo-tel {
+    transform: translate(-10px, 0px); }
+  .redes {
+    transform: translate(-400px, 50px); }
+  .insta {
+    transform: translate(-40px, 25px); }
+  .face {
+    transform: translate(-550px, 100px); } }
 
 .mover .remeraroja:hover {
   transform: scale(1.1); }
