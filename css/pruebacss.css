@@ -162,8 +162,6 @@ h1 {
   .tabla {
     margin-left: 30%; }
   .cascada-gris {
-    display: flex;
-    size: 10px;
     padding: 1rem; }
   .ubicaciones {
     display: block; }
@@ -172,41 +170,74 @@ h1 {
   .mapa2 {
     display: none; }
   .nike1 {
-    transform: translate(-130px, -10px); }
+    transform: translate(-108px, -10px); }
   .nike2 {
-    transform: translate(-495px, 450px); }
+    transform: translate(-470px, 450px); }
   .nike3 {
-    transform: translate(-860px, 940px); }
+    transform: translate(-835px, 940px); }
   .nike4 {
-    transform: translate(-130px, 1000px); }
+    transform: translate(-108px, 1000px); }
   .nike5 {
-    transform: translate(-495px, 1450px); }
+    transform: translate(-470px, 1450px); }
   .nike6 {
-    transform: translate(-860px, 1900px); }
+    transform: translate(-835px, 1900px); }
   .cascada-gris {
     margin-right: auto;
     margin-left: auto;
     transform: translateY(2000px);
-    height: 250px;
+    height: 270px;
     width: 100%;
-    margin-bottom: 0px;
+    background-color: black;
     font-family: sans-serif; }
-  .name {
-    transform: translate(0px, 0px); }
   .gmail {
-    transform: translate(-50px, -50px); }
-  .gmail .logo-mail {
-    transform: translate(0px, -10px); }
+    transform: translate(-7px, 100px);
+    height: 20px; }
+    .gmail h5 {
+      display: none; }
+  #logomail {
+    transform: translate(-30px, 20px); }
   .telefono {
-    transform: translate(-240px, 10px); }
-  .telefono .logo-tel {
-    transform: translate(-10px, 0px); }
+    transform: translate(-220px, 150px);
+    height: 20px; }
+    .telefono h5 {
+      display: none; }
+  #logocel {
+    transform: translate(-25px, 23px); }
+  .name {
+    display: none; }
   .redes {
-    transform: translate(-400px, 50px); }
+    transform: translate(-380px, 50px);
+    height: 20px; }
+    .redes h5 {
+      display: none; }
   .insta {
     transform: translate(-40px, 25px); }
+    .insta h5 {
+      display: none; }
   .face {
-    transform: translate(-550px, 100px); } }
+    transform: translate(-536px, 10px);
+    height: 20px; }
+    .face h5 {
+      display: none; }
+  #logoface {
+    transform: translate(-35px, 25px); }
+  #encuesta {
+    width: 300px;
+    margin: top 4rem; }
+  .nombreform {
+    margin: 7px; }
+  .apellidoform {
+    margin: 7px; }
+  .mailform {
+    margin: 7px; }
+  #EMAIL {
+    margin: 3px; }
+  .encontrarform {
+    margin: 7px; }
+  .infoform {
+    margin: 7px; }
+  .opinionform {
+    margin: 7px; } }
 
 .mover .remeraroja:hover {
   transform: scale(1.1); }
