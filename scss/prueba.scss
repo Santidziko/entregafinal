@@ -42,7 +42,12 @@ h1{
 				background-color: rgba(187, 184, 184, 0.801);
 				border-color: none;
 			}
-	.dropdown-item:hover{background-color: silver;}
+
+	.dropdown-item:hover{background-color: rgba(187, 184, 184, 0.801);}
+
+	.dropdown-menu {background-color: black;margin-top: 7px; border-radius: 1%; }
+	
+	.dropdown-item {color: white;}
 
 	.btn{color: silver;
 		border-color: silver;}
