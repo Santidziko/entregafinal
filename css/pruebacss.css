@@ -101,7 +101,7 @@ h1 {
 .tabla {
   margin-top: 2rem;
   margin-left: 16px;
-  background-color: lightblue; }
+  background-color: whitesmoke; }
 
 .imagen {
   margin-left: 10px;
@@ -157,18 +157,9 @@ h1 {
 @media (max-width: 640px) {
   .imagen {
     display: none; }
-  .grilla {
-    display: inline-block; }
   .tabla {
-    margin-left: 30%; }
-  .cascada-gris {
-    padding: 1rem; }
-  .ubicaciones {
-    display: block; }
-  .mapa1 {
-    display: none; }
-  .mapa2 {
-    display: none; }
+    height: 235px;
+    margin: 6px; }
   .nike1 {
     transform: translate(-108px, -10px); }
   .nike2 {
@@ -182,13 +173,17 @@ h1 {
   .nike6 {
     transform: translate(-835px, 1900px); }
   .cascada-gris {
+    padding: 1rem;
     margin-right: auto;
     margin-left: auto;
-    transform: translateY(2000px);
     height: 270px;
     width: 100%;
     background-color: black;
     font-family: sans-serif; }
+  .partesuperior {
+    min-height: calc(100vh - 270px); }
+  #footeresponsive {
+    transform: translateY(2000px); }
   .gmail {
     transform: translate(-7px, 100px);
     height: 20px; }
@@ -222,8 +217,7 @@ h1 {
   #logoface {
     transform: translate(-35px, 25px); }
   #encuesta {
-    width: 300px;
-    margin: top 4rem; }
+    width: 300px; }
   .nombreform {
     margin: 7px; }
   .apellidoform {
@@ -237,7 +231,19 @@ h1 {
   .infoform {
     margin: 7px; }
   .opinionform {
-    margin: 7px; } }
+    margin: 7px; }
+  .ubicaciones {
+    display: block; }
+  #lugares {
+    display: block; }
+  .mapa1 {
+    width: 250px;
+    height: 250px; }
+  .mapa2 {
+    width: 250px;
+    height: 250px; }
+  #ubicacionesolar {
+    margin-left: 0px; } }
 
 .mover .remeraroja:hover {
   transform: scale(1.1); }
