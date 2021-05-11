@@ -27,7 +27,8 @@ h1 {
   margin-top: 4rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+  box-shadow: 3px 3px 6px #383838; }
   .enlace li a:hover {
     font-weight: bold;
     border-radius: 10%;
@@ -99,6 +100,7 @@ h1 {
   display: flex; }
 
 .tabla {
+  box-shadow: 4px 4px 10px #272727;
   margin-top: 2rem;
   margin-left: 16px;
   background-color: whitesmoke; }
@@ -159,7 +161,8 @@ h1 {
     display: none; }
   .tabla {
     height: 235px;
-    margin: 6px; }
+    margin: 6px;
+    margin-top: 2rem; }
   .nike1 {
     transform: translate(-108px, -10px); }
   .nike2 {
@@ -260,11 +263,8 @@ h1 {
 ul {
   color: blue; }
 
-.contactar {
-  color: orange;
-  text-align: center;
-  background-color: green;
-  margin: 4rem 6rem 0rem 6rem; }
+.encuesta {
+  box-shadow: 4px 4px 10px #272727; }
 
 .ubicaciones {
   color: black;
@@ -291,8 +291,10 @@ thead {
   margin: auto;
   background-color: white; }
   .encuesta #boton {
-    margin-left: 4px;
-    position: absolute; }
+    color: white;
+    background-color: rgba(0, 0, 0, 0.952);
+    border-color: silver;
+    font-size: 15px; }
   .encuesta #search {
     position: absolute; }
 
@@ -328,22 +330,28 @@ thead {
   grid-template-areas: 'pantalon1 pantalon2 pantalon3' 'gorra1 gorra2 gorra3'; }
 
 .pantalon1 {
-  grid-area: pantalon1; }
+  grid-area: pantalon1;
+  box-shadow: 4px 4px 10px #272727; }
 
 .pantalon2 {
-  grid-area: pantalon2; }
+  grid-area: pantalon2;
+  box-shadow: 4px 4px 10px #272727; }
 
 .pantalon3 {
-  grid-area: pantalon3; }
+  grid-area: pantalon3;
+  box-shadow: 4px 4px 10px #272727; }
 
 .gorra1 {
-  grid-area: gorra1; }
+  grid-area: gorra1;
+  box-shadow: 4px 4px 10px #272727; }
 
 .gorra2 {
-  grid-area: gorra2; }
+  grid-area: gorra2;
+  box-shadow: 4px 4px 10px #272727; }
 
 .gorra3 {
-  grid-area: gorra3; }
+  grid-area: gorra3;
+  box-shadow: 4px 4px 10px #272727; }
 
 .infodelpant {
   font-weight: lighter;
@@ -351,7 +359,8 @@ thead {
   margin-top: 10px; }
 
 .carrito {
-  display: flex; }
+  display: flex;
+  margin-top: 10px; }
 
 .pantalon1:active {
   transform: scale(1.5); }
@@ -370,9 +379,6 @@ thead {
 
 .gorra3:active {
   transform: scale(1.5); }
-
-.table {
-  background-color: lightblue; }
 
 .hacerblockmarca {
   text-transform: uppercase; }

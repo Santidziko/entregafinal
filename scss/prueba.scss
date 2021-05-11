@@ -27,6 +27,7 @@ h1{
 	margin-left: 1rem;
 	margin-right: 1rem;	
 	padding-left: 1rem;
+	box-shadow: 3px 3px 6px rgb(56, 56, 56);
 		li a:hover{
 			font-weight: bold;
 			border-radius: 10%;
@@ -86,6 +87,7 @@ h1{
 	display: flex;
 }	
 .tabla{
+	box-shadow: 4px 4px 10px rgb(39, 39, 39);
 	margin-top:2rem;
 	margin-left: 16px;
 	background-color: whitesmoke;
@@ -127,7 +129,7 @@ border-radius: 15%;}
 @media (max-width: 640px){
 		.imagen{display:none;}
 	
-		.tabla{height: 235px; margin: 6px;}	
+		.tabla{height: 235px; margin: 6px; margin-top: 2rem;}	
 
 		.nike1{
 			transform: translate(-108px ,-10px);
@@ -242,12 +244,9 @@ border-radius: 15%;}
 ul{
 	color: blue;
 }
-.contactar{
-		color: orange;
-		text-align:center;
-		background-color: green;
-		margin: 4rem 6rem 0rem 6rem;
-	}
+.encuesta{
+box-shadow: 4px 4px 10px rgb(39, 39, 39);
+}
 .ubicaciones{
 	color: black;
 	font-family:sans-serif;
@@ -269,15 +268,21 @@ thead{
 	border:solid black 1px;
 	width: 32%;
 	padding:8px; 
-	font-family: sans-serif;
+	font-family: sans-serif; 
 
-#boton {margin-left: 4px; position:absolute}
+
+#boton{color: white;
+		background-color: rgba(0, 0, 0, 0.952); 
+		border-color: silver;
+		font-size:  15px; }
+
 
 #search{ position: absolute;}
 	line-height: 1.6;
 	margin:auto;
 	background-color: white;
 }
+
 .dato{
 	margin-left: 3rem;
 	font-family: sans-serif;
@@ -313,17 +318,17 @@ thead{
 		'pantalon1 pantalon2 pantalon3'
 		'gorra1 gorra2 gorra3';
 }
-.pantalon1{ grid-area: pantalon1;}
-.pantalon2{ grid-area: pantalon2; }
-.pantalon3{ grid-area: pantalon3; }
-.gorra1 {grid-area: gorra1;}
-.gorra2 {grid-area: gorra2;}
-.gorra3 {grid-area: gorra3;}
+.pantalon1{ grid-area: pantalon1;box-shadow: 4px 4px 10px rgb(39, 39, 39);}
+.pantalon2{ grid-area: pantalon2;box-shadow: 4px 4px 10px rgb(39, 39, 39); }
+.pantalon3{ grid-area: pantalon3;box-shadow: 4px 4px 10px rgb(39, 39, 39); }
+.gorra1 {grid-area: gorra1;box-shadow: 4px 4px 10px rgb(39, 39, 39);}
+.gorra2 {grid-area: gorra2;box-shadow: 4px 4px 10px rgb(39, 39, 39);}
+.gorra3 {grid-area: gorra3;box-shadow: 4px 4px 10px rgb(39, 39, 39);}
 
 .infodelpant{font-weight: lighter;
 font-family: sans-serif; margin-top: 10px;}
 
-.carrito{display: flex;}
+.carrito{display: flex; margin-top: 10px;}
 
 .pantalon1:active{transform: scale(1.5);}
 .pantalon2:active{transform: scale(1.5);}
@@ -332,9 +337,6 @@ font-family: sans-serif; margin-top: 10px;}
 .gorra2:active{transform: scale(1.5);}
 .gorra3:active{transform: scale(1.5);}
 
-.table{
-	background-color: lightblue;
-}
 
 .hacerblockmarca{
 	text-transform: uppercase;
