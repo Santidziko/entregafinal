@@ -119,14 +119,17 @@ h1 {
   grid-template-areas: 'imagen1 lugar imagen3'  'texto1 texto2 texto3'; }
 
 .remerazul {
-  grid-area: imagen1; }
+  grid-area: imagen1;
+  box-shadow: 5px 5px 5px #272727; }
 
 .remeranaranja {
   grid-area: lugar;
-  grid-column-start: 2; }
+  grid-column-start: 2;
+  box-shadow: 5px 5px 5px #272727; }
 
 .remeraroja {
-  grid-area: imagen3; }
+  grid-area: imagen3;
+  box-shadow: 5px 5px 5px #272727; }
 
 .color1 {
   grid-area: texto1;
@@ -246,15 +249,16 @@ h1 {
     width: 250px;
     height: 250px; }
   #ubicacionesolar {
-    margin-left: 0px; } }
+    margin-left: 0px;
+    margin-top: 50px; } }
 
-.mover .remeraroja:hover {
+.mover .remeraroja:active {
   transform: scale(1.1); }
 
-.mover .remerazul:hover {
+.mover .remerazul:active {
   transform: scale(1.1); }
 
-.mover .remeranaranja:hover {
+.mover .remeranaranja:active {
   transform: scale(1.1); }
 
 #badge {
@@ -360,25 +364,25 @@ thead {
 
 .carrito {
   display: flex;
-  margin-top: 10px; }
+  margin-top: 8px; }
 
 .pantalon1:active {
-  transform: scale(1.5); }
+  transform: scale(1.2); }
 
 .pantalon2:active {
-  transform: scale(1.5); }
+  transform: scale(1.2); }
 
 .pantalon3:active {
-  transform: scale(1.5); }
+  transform: scale(1.2); }
 
 .gorra1:active {
-  transform: scale(1.5); }
+  transform: scale(1.2); }
 
 .gorra2:active {
-  transform: scale(1.5); }
+  transform: scale(1.2); }
 
 .gorra3:active {
-  transform: scale(1.5); }
+  transform: scale(1.2); }
 
 .hacerblockmarca {
   text-transform: uppercase; }

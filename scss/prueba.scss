@@ -107,10 +107,10 @@ h1{
 	grid-template-areas: 'imagen1 lugar imagen3' 
 						'texto1 texto2 texto3';
 }
-.remerazul {grid-area: imagen1;}
+.remerazul {grid-area: imagen1; box-shadow: 5px 5px 5px rgb(39, 39, 39);}
 .remeranaranja {grid-area: lugar;
-				grid-column-start: 2}
-.remeraroja {grid-area: imagen3;}
+				grid-column-start: 2; box-shadow: 5px 5px 5px rgb(39, 39, 39);}
+.remeraroja {grid-area: imagen3; box-shadow: 5px 5px 5px rgb(39, 39, 39);}
 .color1{grid-area: texto1; font-family: sans-serif; margin-top: 15px; margin-left: 3rem;  }
 .color2{grid-area: texto2; font-family: sans-serif; margin-top: 15px; margin-left: 2rem;  }
 .color3{grid-area: texto3; font-family: sans-serif; margin-top: 15px; margin-left: 2rem;  }
@@ -149,6 +149,7 @@ border-radius: 15%;}
 		.nike6{
 			transform: translate(-835px ,1900px);
 		}
+
 	
 		.cascada-gris{
 			padding: 1rem;
@@ -228,16 +229,16 @@ border-radius: 15%;}
 	
 	.mapa1{ width: 250px; height: 250px;}
 	
-	.mapa2{ width: 250px; height: 250px;}
+	.mapa2{ width: 250px; height: 250px; }
 	
-	#ubicacionesolar{margin-left: 0px;}
+	#ubicacionesolar{margin-left: 0px;margin-top: 50px;}
     
 	}
 	
 .mover{
-	.remeraroja:hover{transform: scale(1.1);}
-	.remerazul:hover{transform: scale(1.1);}
-	.remeranaranja:hover{transform: scale(1.1);}
+	.remeraroja:active{transform: scale(1.1); }
+	.remerazul:active{transform: scale(1.1);}
+	.remeranaranja:active{transform: scale(1.1);}
 }
 #badge{ color: black;}
 
@@ -328,15 +329,14 @@ thead{
 .infodelpant{font-weight: lighter;
 font-family: sans-serif; margin-top: 10px;}
 
-.carrito{display: flex; margin-top: 10px;}
+.carrito{display: flex; margin-top: 8px;}
 
-.pantalon1:active{transform: scale(1.5);}
-.pantalon2:active{transform: scale(1.5);}
-.pantalon3:active{transform: scale(1.5);}
-.gorra1:active{transform: scale(1.5);}
-.gorra2:active{transform: scale(1.5);}
-.gorra3:active{transform: scale(1.5);}
-
+.pantalon1:active{transform: scale(1.2);}
+.pantalon2:active{transform: scale(1.2);}
+.pantalon3:active{transform: scale(1.2);}
+.gorra1:active{transform: scale(1.2);}
+.gorra2:active{transform: scale(1.2);}
+.gorra3:active{transform: scale(1.2);}
 
 .hacerblockmarca{
 	text-transform: uppercase;
